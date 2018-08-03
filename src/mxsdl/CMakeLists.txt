@@ -4,3 +4,7 @@ add_library(mxsdl STATIC
     Texture.cpp
     Window.cpp
 )
+
+add_dependencies(mxsdl
+    mxg
+)
