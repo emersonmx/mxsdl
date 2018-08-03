@@ -1,7 +1,5 @@
 set(MXG_PREFIX mxg)
 
-message(STATUS "${CC} ${CXX}")
-
 ExternalProject_Add(${MXG_PREFIX}
     URL https://github.com/emersonmx/${MXG_PREFIX}/archive/master.zip
     PREFIX thirdparty/${MXG_PREFIX}
