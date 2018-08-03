@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.11)
 project(mxsdl LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 
-set(mxsdl_VERSION_MAJOR 1)
-set(mxsdl_VERSION_MINOR 0)
+set(mxsdl_VERSION_MAJOR 0)
+set(mxsdl_VERSION_MINOR 1)
 set(mxsdl_VERSION_REVISION 0)
 
 # Configs
